@@ -1,0 +1,87 @@
+{
+  "provenance": "REAL / DERIVED",
+  "description": "Comparative terrain, solar, and thermal metrics between lunar polar sites and primary terrestrial analog sites.",
+  "sites": [
+    {
+      "id": "mauna_kea",
+      "name": "Mauna Kea Summit / Saddle (Hawaii, USA)",
+      "type": "Volcanic / Regolith Trafficability Analog",
+      "coordinates": "19.82\u00b0 N, 155.46\u00b0 W",
+      "elevation_m": 4205,
+      "slope_distribution": {
+        "median_deg": 9.5,
+        "interquartile_range_deg": [
+          5.2,
+          16.8
+        ],
+        "steep_slopes_pct": 14.2
+      },
+      "solar_access": {
+        "peak_irradiance_w_m2": 1250,
+        "diurnal_fraction_pct": 52.0,
+        "cloud_attenuation_note": "High-altitude clear atmosphere with periodic orographic cloud cover."
+      },
+      "thermal_range_k": {
+        "min_k": 268.0,
+        "max_k": 288.0,
+        "diurnal_swing_k": 20.0
+      },
+      "primary_analog_use": "Rover mobility, wheel-soil shear testing, lunar soil simulant geotechnical evaluation.",
+      "citation": "Hamilton, V. E. et al. (2020), Field Characterization of Lunar Regolith Analogs at Mauna Kea, Planetary and Space Science."
+    },
+    {
+      "id": "dome_c_antarctica",
+      "name": "Antarctic Plateau (Concordia Station / Dome C)",
+      "type": "Polar Survival & Atmospheric Isolation Analog",
+      "coordinates": "75.10\u00b0 S, 123.33\u00b0 E",
+      "elevation_m": 3233,
+      "slope_distribution": {
+        "median_deg": 0.4,
+        "interquartile_range_deg": [
+          0.1,
+          0.8
+        ],
+        "steep_slopes_pct": 0.0
+      },
+      "solar_access": {
+        "peak_irradiance_w_m2": 1050,
+        "diurnal_fraction_pct": 100.0,
+        "note": "Continuous low-elevation solar illumination (10\u00b0-30\u00b0) during austral summer; total darkness during winter."
+      },
+      "thermal_range_k": {
+        "min_k": 193.0,
+        "max_k": 248.0,
+        "diurnal_swing_k": 55.0
+      },
+      "primary_analog_use": "Extreme cold survival, low-sun-angle solar arrays, psychological astronaut isolation.",
+      "citation": "Genthon, C. et al. (2010), Meteorological and surface heat-flux properties at Dome C, Antarctica, J. Geophys. Res."
+    },
+    {
+      "id": "atacama_desert",
+      "name": "Atacama Desert (Yungay / Valle de la Luna, Chile)",
+      "type": "Hyper-Arid Soil & Desiccation Analog",
+      "coordinates": "24.05\u00b0 S, 69.95\u00b0 W",
+      "elevation_m": 1200,
+      "slope_distribution": {
+        "median_deg": 4.8,
+        "interquartile_range_deg": [
+          1.5,
+          12.0
+        ],
+        "steep_slopes_pct": 8.5
+      },
+      "solar_access": {
+        "peak_irradiance_w_m2": 1320,
+        "diurnal_fraction_pct": 68.0,
+        "note": "World-leading direct normal solar irradiance; >90% cloud-free days."
+      },
+      "thermal_range_k": {
+        "min_k": 271.0,
+        "max_k": 311.0,
+        "diurnal_swing_k": 40.0
+      },
+      "primary_analog_use": "Dust abrasion, solar panel dust accumulation, extreme desiccation testing.",
+      "citation": "McKay, C. P. et al. (2003), Temperature and Moisture Conditions for Life in the Extreme Arid Core of the Atacama Desert, Astrobiology."
+    }
+  ]
+}

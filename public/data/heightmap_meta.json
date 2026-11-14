@@ -1,0 +1,27 @@
+{
+  "provenance": "REAL",
+  "source": "NASA LRO LOLA (Lunar Orbiter Laser Altimeter) RDR/GDR LDEM_875S_20M",
+  "citation": "Smith, D. E. et al. (2017), LRO-L-LOLA-4-GDR-V1.0, NASA Planetary Data System.",
+  "dimensions": [
+    1024,
+    1024
+  ],
+  "pixel_size_m": 20.0,
+  "width_km": 20.48,
+  "height_km": 20.48,
+  "min_elevation_m": -2665.5,
+  "max_elevation_m": 1959.0,
+  "mean_elevation_m": 436.9661865234375,
+  "reference_radius_m": 1737400.0,
+  "projection": "POLAR STEREOGRAPHIC",
+  "line_range": [
+    3538,
+    4562
+  ],
+  "sample_range": [
+    3038,
+    4062
+  ],
+  "center_lat": -89.7,
+  "center_lon": 200.0
+}

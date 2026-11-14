@@ -1,0 +1,10 @@
+{
+  "provenance": "DERIVED",
+  "derivation": "2D central-differences gradient magnitude arctan(sqrt((dz/dx)^2 + (dz/dy)^2))",
+  "min_slope_deg": 0.0,
+  "max_slope_deg": 66.44678497314453,
+  "mean_slope_deg": 17.7244873046875,
+  "critical_threshold_deg": 15.0,
+  "hazard_fraction_pct": 54.485321044921875,
+  "encoding": "8-bit grayscale where 0=0 deg, 255>=45 deg (0.1765 deg/DN)"
+}

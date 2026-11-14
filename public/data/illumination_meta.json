@@ -1,0 +1,8 @@
+{
+  "provenance": "DERIVED",
+  "derivation": "Horizon raycasting with 0.53\u00b0 extended solar disc integration and lunar curvature drop over 720 hours",
+  "time_window": "2026-10-01 to 2026-10-30 (720 hourly steps)",
+  "mean_illumination_pct": 34.08,
+  "peak_illumination_pct": 100.0,
+  "psr_fraction_pct": 2.04
+}

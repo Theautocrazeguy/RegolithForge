@@ -1,0 +1,18 @@
+{
+  "provenance": "DERIVED",
+  "source": "LRO Diviner Lunar Radiometer Experiment (DLRE) high-latitude temperature records",
+  "citation": "Paige, D. A. et al. (2010), Diviner Lunar Radiometer Experiment: Global Temperatures and Water Ice Stability, Science.",
+  "units": "Kelvin (K)",
+  "environmental_regimes": {
+    "illuminated_ridge_max_k": 225.0,
+    "illuminated_ridge_mean_k": 185.0,
+    "transient_shadow_k": 120.0,
+    "psr_cold_trap_min_k": 38.0,
+    "psr_cold_trap_mean_k": 65.0
+  },
+  "ice_thermal_stability_thresholds": {
+    "surface_ice_stable_max_k": 110.0,
+    "subsurface_ice_stable_max_k": 145.0
+  },
+  "description": "Illuminated ridge crests experience modest diurnal swings (160K - 225K), while deep PSR crater floors remain in permanent cryogenic equilibrium (< 80K)."
+}

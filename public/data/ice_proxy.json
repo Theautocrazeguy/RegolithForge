@@ -1,0 +1,12 @@
+{
+  "provenance": "DERIVED",
+  "source": "LRO LEND (Lunar Exploration Neutron Detector) & Lunar Prospector Epithermal Neutron Spectrometer",
+  "citation": "Sanin, A. B. et al. (2017), Hydrogen mapping of the lunar south pole, Icarus.",
+  "units": "Water-Equivalent Hydrogen (WEH) weight percentage (wt%)",
+  "cold_trap_enrichment": {
+    "shackleton_interior_wt_pct": 1.5,
+    "connecting_ridge_flank_wt_pct": 0.4,
+    "illuminated_ridge_crest_wt_pct": 0.05
+  },
+  "description": "Suppressed epithermal neutron leakage indicates significant hydrogen enrichment inside cryogenic PSR traps where surface temperatures stay below 110K."
+}

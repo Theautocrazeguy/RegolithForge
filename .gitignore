@@ -1,0 +1,17 @@
+# Dependencies & Build
+node_modules/
+dist/
+.vite/
+*.local
+
+# Python & Pipeline Cache (raw multi-hundred-MB NASA LOLA/LROC downloads)
+pipeline/.cache/
+__pycache__/
+*.py[cod]
+.venv/
+
+# Environment & Logs
+.env
+.env.*
+*.log
+npm-debug.log*

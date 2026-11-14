@@ -1,0 +1,82 @@
+{
+  "mission": {
+    "name": "RegolithForge",
+    "target": "Lunar South Pole - Connecting Ridge & Shackleton Crater",
+    "challenge": "NASA Space Apps 2026: Lunar Landing Site Navigator",
+    "version": "1.0.0"
+  },
+  "time_window": {
+    "start_utc": "2026-10-01T00:00:00Z",
+    "stop_utc": "2026-10-30T23:00:00Z",
+    "step_hours": 1,
+    "total_steps": 720,
+    "synodic_month_days": 29.53059
+  },
+  "aoi": {
+    "center_lat": -89.70,
+    "center_lon": 200.0,
+    "grid_dim": 1024,
+    "pixel_size_m": 20.0,
+    "width_km": 20.48,
+    "height_km": 20.48,
+    "sample_range": [3038, 4062],
+    "line_range": [3538, 4562],
+    "projection": "POLAR STEREOGRAPHIC",
+    "reference_radius_m": 1737400.0,
+    "standard_parallel_deg": -90.0,
+    "center_longitude_deg": 0.0
+  },
+  "benchmark_sites": [
+    {
+      "id": "connecting_ridge_primary",
+      "name": "Connecting Ridge Primary",
+      "type": "Primary Artemis Candidate",
+      "lat": -89.45,
+      "lon": 222.5,
+      "elev_km": 1.2,
+      "grid_i": 3229,
+      "grid_j": 4407,
+      "description": "High ridge connecting Shackleton to de Gerlache plateau; superior solar visibility."
+    },
+    {
+      "id": "shackleton_rim",
+      "name": "Shackleton Crater Rim",
+      "type": "Crater Rim Peak",
+      "lat": -89.90,
+      "lon": 0.0,
+      "elev_km": 1.1,
+      "grid_i": 3792,
+      "grid_j": 3641,
+      "description": "Proximate to permanently shadowed crater interior cold traps."
+    },
+    {
+      "id": "de_gerlache_rim",
+      "name": "de Gerlache Ridge Rim",
+      "type": "High Elevation Ridge",
+      "lat": -88.50,
+      "lon": 271.0,
+      "elev_km": 0.8,
+      "grid_i": 3050,
+      "grid_j": 4500,
+      "description": "Long-duration Earth communication and elevated solar access."
+    }
+  ],
+  "physical_parameters": {
+    "moon_radius_m": 1737400.0,
+    "solar_constant_w_m2": 1361.0,
+    "solar_angular_diameter_deg": 0.533,
+    "solar_angular_radius_deg": 0.2665,
+    "earth_angular_diameter_deg": 1.90,
+    "speed_of_light_m_s": 299792458.0,
+    "lunar_gravity_m_s2": 1.625
+  },
+  "lander_parameters": {
+    "mast_heights_m": [0.0, 2.0, 5.0, 10.0, 30.0],
+    "default_mast_height_m": 2.0,
+    "critical_slope_deg": 15.0,
+    "warning_slope_deg": 10.0,
+    "solar_array_area_m2": 5.0,
+    "solar_array_efficiency": 0.28,
+    "lander_footprint_m": 10.0
+  }
+}
